@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftCashAnimationView'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Cash Animation With Alpha Blended Number and Floating Point.'
 
 # This description is used to generate tags and improve search results.
@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '4.0'
 
   s.source_files = 'SwiftCashAnimationView/Classes/**/*'
   
