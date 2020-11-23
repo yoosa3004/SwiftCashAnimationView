@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwiftCashAnimationView_Tests' do
+  pod 'SwiftCashAnimationView', :path => '../'
+  
+  
+end
