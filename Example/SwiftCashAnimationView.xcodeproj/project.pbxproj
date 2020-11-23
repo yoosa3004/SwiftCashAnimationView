@@ -13,12 +13,12 @@
 
 /* Begin PBXFileReference section */
 		111A0D720FE75A7FA53CDE2A /* Pods-SwiftCashAnimationView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCashAnimationView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftCashAnimationView_Tests/Pods-SwiftCashAnimationView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		29D456A44A1C1C9D96DD591E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		29D456A44A1C1C9D96DD591E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SwiftCashAnimationView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCashAnimationView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A3439B3FF33B40D0010A2402 /* SwiftCashAnimationView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftCashAnimationView.podspec; path = ../SwiftCashAnimationView.podspec; sourceTree = "<group>"; };
-		B3715A5B9B3C6B7D61B88DE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A3439B3FF33B40D0010A2402 /* SwiftCashAnimationView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftCashAnimationView.podspec; path = ../SwiftCashAnimationView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3715A5B9B3C6B7D61B88DE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B3C13A64A66858D9EF308536 /* Pods-SwiftCashAnimationView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCashAnimationView_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftCashAnimationView_Tests/Pods-SwiftCashAnimationView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EB105FD0D31370177280974A /* Pods_SwiftCashAnimationView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCashAnimationView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -49,7 +49,6 @@
 				111A0D720FE75A7FA53CDE2A /* Pods-SwiftCashAnimationView_Tests.debug.xcconfig */,
 				B3C13A64A66858D9EF308536 /* Pods-SwiftCashAnimationView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

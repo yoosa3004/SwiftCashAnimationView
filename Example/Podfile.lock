@@ -1,0 +1,16 @@
+PODS:
+  - SwiftCashAnimationView (0.1.0)
+
+DEPENDENCIES:
+  - SwiftCashAnimationView (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftCashAnimationView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftCashAnimationView: d60019ca4fe14d6d956b27ba108aef83b31e32c8
+
+PODFILE CHECKSUM: c2b880134d2a24118d8cfec43800ff0a92426d56
+
+COCOAPODS: 1.9.3

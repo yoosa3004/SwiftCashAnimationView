@@ -1,0 +1,6 @@
+framework module SwiftCashAnimationView {
+  umbrella header "SwiftCashAnimationView-umbrella.h"
+
+  export *
+  module * { export * }
+}

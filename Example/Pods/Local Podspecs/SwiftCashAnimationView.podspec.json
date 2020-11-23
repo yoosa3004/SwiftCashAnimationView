@@ -1,0 +1,22 @@
+{
+  "name": "SwiftCashAnimationView",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftCashAnimationView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yoosa3004/SwiftCashAnimationView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yoosa3004": "yoosa3004@deali.net"
+  },
+  "source": {
+    "git": "https://github.com/yoosa3004/SwiftCashAnimationView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftCashAnimationView/Classes/**/*"
+}
