@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020403B1256CB55800214E0C /* SwiftCashAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020403B0256CB55800214E0C /* SwiftCashAnimationView.swift */; };
+		020403B2256CB55800214E0C /* SwiftCashAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020403B0256CB55800214E0C /* SwiftCashAnimationView.swift */; };
 		6C566BB668E5AA3BFA30FA049981A687 /* Pods-SwiftCashAnimationView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5356A7674BD70BBAA0565D3B5814349 /* Pods-SwiftCashAnimationView_Tests-dummy.m */; };
 		7372186D860877B8B479EC2213EAEBB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		843A6259F42E943AC642F0565557F012 /* Pods-SwiftCashAnimationView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95106EAA6A577000C7BAA9A3224FA682 /* Pods-SwiftCashAnimationView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8576F5E1F8B93BD82DF84393C153CC81 /* SwiftCashAnimationView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D74937AE1BEA658B86D99AA25725E70F /* SwiftCashAnimationView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D22BABADC7290D52A6F3E325903E54D /* SwiftCashAnimationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935E2BB37DB81F450C06F9B233D2667 /* SwiftCashAnimationView-dummy.m */; };
-		8DEFC6D2FC5E3A6F1EF207C923153177 /* SwiftCashAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D53B6CF705930FBAFB1661CC0C8ABE /* SwiftCashAnimationView.swift */; };
+		8DEFC6D2FC5E3A6F1EF207C923153177 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D53B6CF705930FBAFB1661CC0C8ABE /* ReplaceMe.swift */; };
 		B7FBB12FCE422AB8F51FAD0BCACDED48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,10 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		020403B0256CB55800214E0C /* SwiftCashAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftCashAnimationView.swift; path = SwiftCashAnimationView/Classes/SwiftCashAnimationView.swift; sourceTree = "<group>"; };
 		2CA53F375F70E54BB3E906B7C32B1A46 /* SwiftCashAnimationView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftCashAnimationView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3935E2BB37DB81F450C06F9B233D2667 /* SwiftCashAnimationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftCashAnimationView-dummy.m"; sourceTree = "<group>"; };
-		41D53B6CF705930FBAFB1661CC0C8ABE /* SwiftCashAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftCashAnimationView.swift; path = SwiftCashAnimationView/Classes/SwiftCashAnimationView.swift; sourceTree = "<group>"; };
+		41D53B6CF705930FBAFB1661CC0C8ABE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftCashAnimationView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		420D4EF8D577DD98D53F8FDF264968F3 /* Pods-SwiftCashAnimationView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftCashAnimationView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		480C0ED7EE2DE08776C659DD85A309FE /* SwiftCashAnimationView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCashAnimationView.release.xcconfig; sourceTree = "<group>"; };
 		4D764D9568FB094521C993EAEA1D266F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -116,9 +119,10 @@
 		872469945F5EFA5C7359C2105E81BBF9 /* SwiftCashAnimationView */ = {
 			isa = PBXGroup;
 			children = (
-				41D53B6CF705930FBAFB1661CC0C8ABE /* SwiftCashAnimationView.swift */,
+				41D53B6CF705930FBAFB1661CC0C8ABE /* ReplaceMe.swift */,
 				97B4AD0F28989A49ED7D52EC334D1694 /* Pod */,
 				243C07A8191C7EFBCB3AF68731F170A1 /* Support Files */,
+				020403B0256CB55800214E0C /* SwiftCashAnimationView.swift */,
 			);
 			name = SwiftCashAnimationView;
 			path = ../..;
@@ -245,6 +249,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					2CA2EC1A9A3CC91B9DE6FAA65D32D256 = {
+						LastSwiftMigration = 1220;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -287,7 +296,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DEFC6D2FC5E3A6F1EF207C923153177 /* SwiftCashAnimationView.swift in Sources */,
+				020403B2256CB55800214E0C /* SwiftCashAnimationView.swift in Sources */,
+				8DEFC6D2FC5E3A6F1EF207C923153177 /* ReplaceMe.swift in Sources */,
 				8D22BABADC7290D52A6F3E325903E54D /* SwiftCashAnimationView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020403B1256CB55800214E0C /* SwiftCashAnimationView.swift in Sources */,
 				6C566BB668E5AA3BFA30FA049981A687 /* Pods-SwiftCashAnimationView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +328,7 @@
 			baseConfigurationReference = D7ECE8BF0F7F8C62E6F9F3E35085F323 /* Pods-SwiftCashAnimationView_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -339,6 +351,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -350,6 +364,7 @@
 			baseConfigurationReference = ECC82A8D911BE3D72F7E52CE04AD81BB /* Pods-SwiftCashAnimationView_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -372,6 +387,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
