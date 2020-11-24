@@ -7,8 +7,14 @@
 
 import UIKit
 
+@available(iOS 9.0, *)
 public class SwiftCashAnimationView: UIView {
 
+    private var stvCashAnimation = UIStackView()
+    
+    private var maximumNumber:Int = 2000000
+    private var minimumNumber:Int = 100000
+    
     public func DLog(with str: String) {
         print("\(str) from cocoapods")
     }
@@ -16,7 +22,7 @@ public class SwiftCashAnimationView: UIView {
     init() {
         super.init(frame: CGRect.zero)
         
-        DLog(with: "init success")
+        DLog(with: "init success with maxNum = \(self.maximumNumber)")
     }
     
     required init?(coder: NSCoder) {
